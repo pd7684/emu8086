@@ -1,0 +1,9 @@
+
+MOV AL,33H
+MOV BL,22H
+SBB AL,BL
+MOV [1500H],AL
+HLT
+
+
+
